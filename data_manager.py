@@ -7,7 +7,6 @@ load_dotenv()
 # Retrieve the URL from environment variables
 sheety_get_url = os.getenv("sheety_get_url")
 
-
 class DataManager:
     """
     The DataManager class manages the retrieval and updating of flight price data using external APIs and data sources.
