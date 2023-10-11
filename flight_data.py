@@ -1,19 +1,5 @@
 class FlightData:
-    """
-    The FlightData class represents structured flight data, including price, origin, destination, and travel dates.
-
-    Attributes:
-    - price (float): The price of the flight.
-    - origin_city (str): The name of the origin city.
-    - origin_airport (str): The code or name of the origin airport.
-    - destination_city (str): The name of the destination city.
-    - destination_airport (str): The code or name of the destination airport.
-    - out_date (str): The departure date of the flight in the format "YYYY-MM-DD".
-    - return_date (str): The return date of the flight in the format "YYYY-MM-DD".
-    - stop_overs (int): The number of stopovers or layovers during the flight (default is 0).
-    - via_city (str): The name of the city where a layover occurs (default is an empty string).
-    - link (str): The URL link to more information about the flight.
-    """
+ 
     def __init__(self, price, origin_city, origin_airport, destination_city, destination_airport,
                  out_date, return_date, link, stop_overs=0, via_city=""):
         """
